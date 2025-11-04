@@ -42,17 +42,21 @@ p {
 }
 
 #header {
-    margin-top: 75px;
+    margin-top: 100px;
+}
+
+#header .header-content-right p {
+    margin-top: 1.5rem;
 }
 
 .guitar-img {
-  transform: rotate(-20deg); 
-  margin-top: 100px;
+  transform: rotate(-25deg); 
+  margin-top: 110px;
   transition: transform 0.4s ease-in-out, margin-top 0.4s ease-in-out;
 }
 
 .guitar-img:hover {
-  transform: rotate(-22deg) scale(1.05);
+  transform: rotate(-32deg) scale(1.05);
 }
 
 .btn {
