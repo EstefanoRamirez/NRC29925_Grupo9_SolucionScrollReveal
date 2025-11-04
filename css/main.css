@@ -47,7 +47,7 @@ p {
 
 .guitar-img {
   transform: rotate(-20deg); 
-  margin-top: 75px;
+  margin-top: 90px;
   transition: transform 0.4s ease-in-out, margin-top 0.4s ease-in-out;
 }
 
