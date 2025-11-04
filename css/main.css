@@ -1,0 +1,151 @@
+html {
+  scroll-padding-top: 75px; 
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fff;
+  color: #000;
+}
+
+h1, h2, h3 {
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+p {
+  font-family: 'Titillium Web', sans-serif; 
+  font-size: 1.1rem;
+}
+
+.navbar {
+  border-bottom: 2px solid #000;
+  box-shadow: none;
+}
+
+.logo-nav {
+  height: 50px;
+}
+
+.navbar-brand {
+  font-size: 20px;
+  color: #000;
+  font-weight: bold;
+}
+
+.nav-item .nav-link {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+#header {
+    margin-top: 75px;
+}
+
+.guitar-img {
+  transform: rotate(-20deg);
+  position: relative;
+  top: 75px;
+  transition: transform 0.4s ease-in-out, top 0.4s ease-in-out;
+}
+
+.guitar-img:hover {
+  transform: rotate(-22deg) scale(1.05); 
+}
+
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+.btn-dark {
+  background-color: #000;
+  border-color: #000;
+}
+
+.btn-dark:hover {
+  background-color: #FFD600; 
+  border-color: #FFD600;
+  color: #000;
+}
+
+.btn-outline-dark {
+  border-width: 2px;
+  border-color: #000;
+  color: #000;
+}
+
+.btn-outline-dark:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+#testimonial {
+  background: #f1f1f1;
+  padding: 50px 0 30px 0;
+  text-align:center;
+  margin-top: 40px;
+}
+
+#testimonial .h4 {
+    color: #555;
+    margin-top: 20px;
+    font-weight: 400;
+    text-transform: none;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#info-one, #info-two {
+    padding: 2rem 0;
+}
+
+footer {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/concierto-footer.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 4rem 0 6rem 0; 
+  color: #fff;
+}
+
+footer .card {
+    background: transparent;
+    border: none;
+}
+
+footer .form-control {
+  background: transparent !important;
+  color: #fff !imporant;
+  border: 0 !important;
+  border-bottom: 2px solid #fff !important;
+  border-radius: 0;
+  padding: 0.75rem 0.1rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+footer .form-control:focus {
+    box-shadow: none !important;
+    border-bottom-color: #FFD600 !important;
+}
+
+footer .form-control::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+    opacity: 1;
+}
+
+.btn-submit-footer {
+  background: #FFD600;
+  color: #000;
+  border: 2px solid #FFD600;
+  padding: 0.75rem 2rem;
+}
+
+.btn-submit-footer:hover {
+  background: #fff;
+  border-color: #fff;
+  color: #000;
+}
